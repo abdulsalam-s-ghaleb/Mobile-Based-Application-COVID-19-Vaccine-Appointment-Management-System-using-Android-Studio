@@ -23,7 +23,7 @@ public class AppointmentActivity extends AppCompatActivity {
 
         selectDateButton.setOnClickListener(view -> showDatePickerDialog());
     }
-
+// Only for new covid date dialogs
     private void showDatePickerDialog() {
         final Calendar calendar = Calendar.getInstance();
         int year = calendar.get(Calendar.YEAR);

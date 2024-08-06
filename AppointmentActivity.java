@@ -1,4 +1,3 @@
-// AppointmentActivity.java
 package com.example.covid19vaccine;
 
 import android.app.DatePickerDialog;
